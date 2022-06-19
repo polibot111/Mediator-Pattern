@@ -1,0 +1,9 @@
+﻿Bir bilgisayardaki çeşitli birimler arasındaki etkileşimlerin esas olarak anakart üzerinden yapıldığını hepimiz biliyoruz. 
+Eğer anakart olmasaydı, bu birimlerin etkileşime girebilmesi için birbirleriyle haberleşmesi gerekecekti. Böyle bir durumda ise oldukça karışıklık söz konusu olacağı aşikar. 
+Dolayısıyla her birim sade ve sadece anakartla etkileşime girerek, birimler arasındaki haberleşme sorumluluğunu anakarta yüklemesi gerekmektedir. 
+Böylece ihtiyaç doğrultusunda hangi birimin kiminle ne şekilde etkileşime gireceğini ve nasıl çalışacağını sadece anakart bilecektir.
+Bu senaryoda, CDDriver’a takılan bir CD’de ki verilerin CPU’ya aktarılıp ardından ses ve ekran kartlarına ayrıştırılması süreçlerini Mediator tasarım deseniyle modelliyor olacağız. 
+CDDriver ile CD’den alınan/okunan verileri anakart CPU’ya gönderip, işletecektir. Bunun için CDDriver’ın anakarta durumunun değiştiğini bildirmesi yeterli olacaktır.
+Aynı şekilde CPU aldığı verileri video ve ses verilerine bölüştürerek anakart vasıtasıyla ekran ve ses kartlarına gönderecektir. 
+Yine bu işlem için CPU’nun da anakarta durumunun değiştiğini bildirmesi gerekecektir. 
+Nihai olarak, anakart vasıtasıyla CD’de ki veriler ekran ve ses kartlarına ulaşmış ve işlenmiş olacaktır.

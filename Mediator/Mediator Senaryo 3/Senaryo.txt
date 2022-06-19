@@ -1,0 +1,6 @@
+﻿Bu senaryomuzda bir konut alım satım sürecindeki para transferini ele alıyor olacağız. 
+Yapılan antlaşma neticesinde; alıcı, emlakçı ve ev sahibi arasında yapılacak olan para transferi şu şekilde gerçekleşecektir;
+Alıcı, eğer konutun fiyatı 100.000 TL’den büyükse parayı satıcıya gönderecek ve ardından satıcı emlakçıya %3’lük komisyonu cebinden verecek.. 
+Yok eğer konutun fiyatı 100.000 TL’den küçükse alıcı, emlakçının %10’luk komisyonunu cebinden verecek ve biryandan da konutun tam parasını satıcıya gönderecektir.
+Normal şartlarda bu operasyonu nesneler arasında birebir iletişim kurarak gerçekleştirmeye çalışmak Suriye meselesinden hallice olacaktır. 
+İşte burada Mediator deseni biçilmiş kaftandır.

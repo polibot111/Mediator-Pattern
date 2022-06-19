@@ -1,0 +1,5 @@
+﻿Şehirler arası nakliye firmalarını düşünelim. 
+Örneğin; Iğdır’dan Edirne’ye taşınacak bir ailenin eşyalarını nakliye edebilmek için üç farklı şehirde aktarmalı lojistik firmaları görev alıyor olsun.
+Iğdır’dan Sıvas’a “X Firma”sı,
+Sivas’tan Ankara’ya “Y Firma”sı ve
+Ankara’dan Edirne’ye “Z Firması” nakliye operasyonunda bulunuyor olsun.
